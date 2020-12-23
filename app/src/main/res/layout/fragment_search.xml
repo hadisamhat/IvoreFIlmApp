@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".HomeFragment">
+
+    <AutoCompleteTextView
+
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:inputType="text"
+            android:background="#c3c3c3"
+            android:drawableLeft="@drawable/ic_search"
+            android:hint="Movie/Show Name..."
+            android:paddingLeft="10dp"
+            android:id="@+id/search_item"/>
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/search_item"
+            android:id="@+id/search_bar" android:layout_marginTop="24dp"
+
+            android:layout_marginBottom="50dp"
+    />
+</RelativeLayout>

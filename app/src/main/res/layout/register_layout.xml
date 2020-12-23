@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <EditText
+
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:background="@drawable/layout_bg"
+            android:id="@+id/et_reg_fname"/>
+
+    <TextView
+            android:text="First Name"
+            android:layout_alignLeft="@id/et_reg_fname"
+            android:layout_above="@id/et_reg_fname"
+            android:layout_marginTop="22dp"
+            android:layout_alignStart="@id/et_reg_fname"
+            android:textColor="#CDCDCD"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/tv_reg_fname"/>
+
+    <EditText
+
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:layout_below="@id/et_reg_fname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:background="@drawable/layout_bg"
+            android:id="@+id/et_reg_lname"/>
+
+    <TextView
+            android:text="Last Name"
+            android:layout_alignLeft="@id/et_reg_lname"
+            android:layout_below="@id/et_reg_fname"
+            android:layout_marginTop="10dp"
+            android:layout_alignStart="@id/et_reg_lname"
+            android:textColor="#CDCDCD"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/tv_reg_lname"/>
+    <EditText
+
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:inputType="textEmailAddress"
+            android:layout_below="@id/et_reg_lname"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:background="@drawable/layout_bg"
+            android:id="@+id/et_reg_email"/>
+
+    <TextView
+            android:text="Email"
+            android:layout_alignLeft="@id/et_reg_email"
+            android:layout_below="@id/et_reg_lname"
+            android:layout_marginTop="10dp"
+            android:layout_alignStart="@id/et_reg_email"
+            android:textColor="#CDCDCD"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/tv_reg_email"/>
+    <EditText
+
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:inputType="textPassword"
+            android:layout_below="@id/et_reg_email"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:background="@drawable/layout_bg"
+            android:id="@+id/et_reg_password"/>
+
+    <TextView
+            android:text="Password"
+            android:layout_alignLeft="@id/et_reg_password"
+            android:layout_below="@id/et_reg_email"
+            android:layout_marginTop="10dp"
+            android:layout_alignStart="@id/et_reg_password"
+            android:textColor="#CDCDCD"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/tv_reg_password"/>
+
+
+
+
+
+    <ToggleButton
+            android:text="Register"
+            android:layout_width="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/et_reg_password"
+            android:layout_marginTop="40dp"
+            android:textColor="#CDCDCD"
+            android:background="@drawable/btn_bg"
+
+            android:layout_height="wrap_content" android:id="@+id/btn_register" android:textOff="Register"
+            android:textOn="Register"/>
+
+
+</RelativeLayout>

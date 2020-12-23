@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <EditText
+
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:inputType="textEmailAddress"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:ems="10"
+            android:drawableLeft="@drawable/ic_login"
+            android:hint="Email"
+            android:paddingLeft="10dp"
+            android:background="@drawable/layout_bg"
+            android:id="@+id/et_email"/>
+    <EditText
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_alignLeft="@id/et_email"
+            android:layout_alignStart="@id/et_email"
+            android:layout_below="@id/et_email"
+            android:inputType="textPassword"
+            android:layout_marginTop="26dp"
+            android:ems="10"
+            android:paddingLeft="10dp"
+            android:hint="Password"
+            android:drawableLeft="@drawable/ic_pass"
+            android:background="@drawable/layout_bg"
+            android:id="@+id/et_password"/>
+    <ToggleButton
+            android:text="Login"
+            android:layout_width="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/et_password"
+            android:layout_marginTop="40dp"
+            android:textColor="#CDCDCD"
+            android:background="@drawable/btn_bg"
+
+            android:layout_height="wrap_content" android:id="@+id/btn_login" android:textOff="Login"
+            android:textOn="Login"/>
+    <TextView
+            android:text="Register"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/btn_login"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="15sp"
+            android:textColor="#f58318"
+            android:layout_height="wrap_content" android:id="@+id/tv_register"/>
+
+</RelativeLayout>

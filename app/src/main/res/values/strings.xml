@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IvoreFilmApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_description">Ivoire Film is a mobile application where you can watch African series and films</string>
+    <string name="url">https://127.0.0.1:5001</string>
+</resources>

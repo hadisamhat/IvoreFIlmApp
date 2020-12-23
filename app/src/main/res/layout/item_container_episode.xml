@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable name="episodeName" type="String"/>
+        <variable name="episodeLength" type="String"/>
+    </data>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="8sp"
+            android:padding="8sp"
+            android:background="@drawable/background_03"
+
+    >
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:fontFamily="@font/montserrat"
+                  android:includeFontPadding="false"
+                  android:textColor="#f58318"
+                  android:textSize="13sp"
+                  android:id="@+id/title"
+                  android:text="@{episodeName}"
+        />
+        <TextView android:id="@+id/lenght"
+                  android:layout_marginTop="3sp"
+                  android:layout_width="match_parent" android:layout_height="wrap_content"
+                  android:fontFamily="@font/montserrat"
+                  android:includeFontPadding="false"
+                  android:textColor="#f58318"
+                  android:textSize="12sp"
+                  android:text="@{episodeLength}"
+        />
+
+    </LinearLayout>
+
+</layout>
